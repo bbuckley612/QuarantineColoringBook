@@ -1,0 +1,15 @@
+html, body {
+  font-family: Arial;
+}
+
+#main {
+  width: 100%;
+  padding-left: 50%;
+}
+
+#canvas {
+  display: inline;
+  width: 425px;   /* (8.5 * 100) / 2 */
+  height: 550px;  /* (11 * 100) / 2 */
+  margin-left: -212px;
+}
