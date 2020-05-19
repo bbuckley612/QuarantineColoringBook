@@ -12,7 +12,7 @@ function exportCanvas() {
 }
 
 //Test Stuff
-context.beginPath();
+/*context.beginPath();
 context.moveTo(170, 80);
 context.bezierCurveTo(130, 100, 130, 150, 230, 150);
 context.bezierCurveTo(250, 180, 320, 180, 340, 150);
@@ -25,4 +25,4 @@ context.lineWidth = 5;
 context.fillStyle = '#8ED6FF';
 context.fill();
 context.strokeStyle = '#0000ff';
-context.stroke();
+context.stroke();*/
