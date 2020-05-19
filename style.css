@@ -9,7 +9,7 @@ html, body {
 
 #canvas {
   display: inline;
-  width: 425px;   /* (8.5 * 100) / 2 */
-  height: 550px;  /* (11 * 100) / 2 */
-  margin-left: -212px;
+  width: 850px;   /* (8.5 * 100) */
+  height: 1100px;  /* (11 * 100) */
+  margin-left: -425px;
 }
