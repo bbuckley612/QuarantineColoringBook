@@ -7,7 +7,7 @@ function exportCanvas() {
   //https://stackoverflow.com/a/19290964
   var imgData = canvas.toDataURL("image/jpeg", 1.0);
   var pdf = new jsPDF('p', 'px', 'letter');
-  pdf.addImage(imgData, 'JPEG', 0, 0, '850px', '1100px');
+  pdf.addImage(imgData, 'JPEG', 0, 0, 850, 1100);
   pdf.save("download.pdf");
 }
 
