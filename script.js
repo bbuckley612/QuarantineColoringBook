@@ -3,14 +3,10 @@ var context = canvas.getContext('2d');
 
 function exportCanvas() {
   //https://stackoverflow.com/a/23684363
+  //https://stackoverflow.com/a/36509632
+  //https://stackoverflow.com/a/19290964
   var imgData = canvas.toDataURL("image/jpeg", 1.0);
   var pdf = new jsPDF('p', 'px', 'letter');
-  //https://stackoverflow.com/a/36509632
-  var width = pdf.internal.pageSize.getWidth();
-  console.log(width);
-  var height = pdf.internal.pageSize.getHeight();
-  console.log(height);
-  //https://stackoverflow.com/a/23684363
-  pdf.addImage(imgData, 'JPEG', 0, 0, width, height);
+  pdf.addImage(imgData, 'JPEG', 0, 0, '850px', '1100px');
   pdf.save("download.pdf");
 }
