@@ -10,3 +10,7 @@ function exportCanvas() {
   pdf.addImage(imgData, 'JPEG', 0, 0, '850px', '1100px');
   pdf.save("download.pdf");
 }
+
+//https://stackoverflow.com/a/49745434
+context.fillStyle = 'black';
+context.fillRect(0, 0, canvas.width, canvas.height);
