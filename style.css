@@ -1,15 +1,19 @@
 html, body {
   font-family: Arial;
+  text-align: center;
+  overflow-x: hidden;
 }
 
 #main {
   width: 100%;
   padding-left: 50%;
+  text-align: left;
 }
 
 #canvas {
   display: inline;
-  width: 850px;   /* (8.5 * 100) */
-  height: 1100px;  /* (11 * 100) */
+  width: 850px;
+  height: 1100px;
   margin-left: -425px;
+  border: solid black 5px;
 }
